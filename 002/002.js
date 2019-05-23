@@ -11,8 +11,8 @@ let i = 4;
 function fibonacciSum() {
   while (arr[i - 1] + arr[i - 2] <= 4000000) {
     arr[i] = arr[i - 1] + arr[i - 2];
-    i += 1;
     sum += arr[i];
+    i += 1;
   }
 }
 
